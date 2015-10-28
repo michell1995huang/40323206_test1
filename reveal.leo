@@ -2407,7 +2407,7 @@ sudo pip3 install IPython[notebook]==3.2.1
 <t tx="leo40323206.20151026200206.10">&lt;section&gt;
     &lt;h2&gt;自評分數&lt;/h2&gt;
     &lt;br&gt;
-    &lt;p&gt;對於這次從作業中學習到的東西，覺得還可以再更完整，但過程還算滿意，對於軟體的使用及指令也都有用心去記，不過因之前的怠惰遲交作業這點，覺得學習態度還須改善，自評分數80分。&lt;/p&gt;
+    &lt;p&gt;作業還是遲交了...對我而言難的並不是倉儲上的管理及推送，而是製圖軟體的學習，沒有甚麼製圖基礎只好完全看網站上的步驟一步一步做，費時又費力，但我想至少還是有收穫的，自評分數80分。&lt;/p&gt;
 
 &lt;/section&gt;
 				
@@ -2466,25 +2466,23 @@ sudo pip3 install IPython[notebook]==3.2.1
 	
 </t>
 <t tx="leo40323206.20151026200206.8">&lt;section id="hw-task-one"&gt;
-    &lt;h2&gt;作業執行過程&lt;/h2&gt;
+    &lt;h2&gt;作業項目&lt;/h2&gt;
     &lt;br&gt;
-     &lt;p align="left"&gt;1. 到上課網頁2015Fall CADPB 第4週&lt;/p&gt;
+     &lt;p align="left"&gt;1.繪製講義的兩個零件 &lt;/p&gt;
     &lt;br&gt;
-     &lt;p align="left"&gt;2. 第三個選項Solvespace 基本操作&lt;/p&gt;
+     &lt;p align="left"&gt;2. 把零件組起來&lt;/p&gt;
     &lt;br&gt;
-     &lt;p align="left"&gt;3. 資料夾 Ana3_2015→data→apps 有solespace的軟體可直接使用 &lt;/p&gt;
-     &lt;p align="left"&gt;4.solespace基本介紹  &lt;/p&gt;
-     &lt;p align="left"&gt;a.右手邊的工具欄分成四部分，主要會用到的是上面兩個&lt;/p&gt;
-     &lt;p align="left"&gt;b.第一部分是形狀的繪製 (2D)&lt;/p&gt;
-     &lt;p align="left"&gt;c.第二部分是線條的定義 &lt;/p&gt;
-       &lt;p align="left"&gt;d.第三部分左上角的符號是長料、除料；右上角則是產生一個新的基準面&lt;/p&gt;
+     &lt;p align="left"&gt;3.拍製教學影片並上傳 &lt;/p&gt;
+     &lt;br&gt;
+     &lt;p align="left"&gt;4.編輯投影片&lt;/p&gt;
+  
 &lt;/section&gt;
 				
 </t>
 <t tx="leo40323206.20151026200206.9">&lt;section&gt;
     &lt;h2&gt;心得&lt;/h2&gt;
     &lt;br&gt;
-    &lt;p&gt;第四週的作業主要是要使用solespace畫出操作說明示範的立體圖，接著比照第二週的作業用Leo編輯上課筆記、心得、自評，產生遠端網頁並上傳Github，所以我把這次學習的重點放在solespace的使用上，由於不是製圖科出生，接觸過的立體繪圖軟體只有Solidwork，所以照著網路上的操作說明進行繪圖時除了要克服英文上的閱讀問題，還有繪圖上的反應能力偏弱，前後花了約3小時在完成繪製的部分，了解後發現solespace的使用並不困難，只是面對英文面板多少卻步，實際操作並不複雜，檔案儲存的種類也不少，算是自學也容易上手的軟體，我也google了網路上的其他教學，內容都非常完善，是會讓人願意繼續使用的軟體。&lt;/p&gt;
+    &lt;p&gt;第五週的作業是要使用Creo畫出兩個零件進行組合，網站上老師提供的過程是英文，但軟體的介面是可以改成中文的，操作的時候覺得立體的製圖軟體似乎都大同小異，沒有遇到甚麼特別的困難，只有在畫零件2時的法向自動標註的地方剛好不是自己要的，所以要另外標註。&lt;/p&gt;
 
 &lt;/section&gt;
 				
