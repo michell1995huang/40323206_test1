@@ -41,6 +41,7 @@
 <v t="leo40323206.20151018163438.1"><vh>@edit 2015cphww4.md</vh></v>
 <v t="leo40323206.20151026195055.1"><vh>@edit 2015cphww5.md</vh></v>
 <v t="leo40323206.20151116112006.1"><vh>@edit 2015cphww6.md</vh></v>
+<v t="leo40323206.20151118180013.1"><vh>@edit 2015cphww7.md</vh></v>
 <v t="amd.20150920000911.1"><vh>@edit 2015cpnote1.md</vh></v>
 </v>
 <v t="amd.20150919120205.1"><vh>以下為 reveal 投影片</vh></v>
@@ -350,6 +351,21 @@
 </v>
 </v>
 <v t="leo40323206.20151116112044.12"><vh>script</vh></v>
+</v>
+</v>
+</v>
+<v t="leo40323206.20151118180431.1" a="E"><vh>@clean simplest5.html</vh>
+<v t="leo40323206.20151118180431.2"><vh>檔案說明</vh></v>
+<v t="leo40323206.20151118180431.3" a="E"><vh>html 標註</vh>
+<v t="leo40323206.20151118180431.4" a="E"><vh>body 標註</vh>
+<v t="leo40323206.20151118180431.5" a="E"><vh>div class="reveal"</vh>
+<v t="leo40323206.20151118180431.6" a="E"><vh>div class="slides"</vh>
+<v t="leo40323206.20151118180431.7"><vh>封面</vh></v>
+<v t="leo40323206.20151118180431.8"><vh>投影片2</vh></v>
+<v t="leo40323206.20151118180431.9"><vh>投影片3 </vh></v>
+</v>
+</v>
+<v t="leo40323206.20151118180431.12"><vh>script</vh></v>
 </v>
 </v>
 </v>
@@ -2412,7 +2428,7 @@ sudo pip3 install IPython[notebook]==3.2.1
 <t tx="leo40323206.20151018163937.9">&lt;section&gt;
     &lt;h2&gt;心得&lt;/h2&gt;
     &lt;br&gt;
-    &lt;p&gt;第四週的作業主要是要使用solespace畫出操作說明示範的立體圖，接著比照第二週的作業用Leo編輯上課筆記、心得、自評，產生遠端網頁並上傳Github，所以我把這次學習的重點放在solespace的使用上，由於不是製圖科出生，接觸過的立體繪圖軟體只有Solidwork，所以照著網路上的操作說明進行繪圖時除了要克服英文上的閱讀問題，還有繪圖上的反應能力偏弱，前後花了約3小時在完成繪製的部分，了解後發現solespace的使用並不困難，只是面對英文面板多少卻步，實際操作並不複雜，檔案儲存的種類也不少，算是自學也容易上手的軟體，我也google了網路上的其他教學，內容都非常完善，是會讓人願意繼續使用的軟體。&lt;/p&gt;
+    &lt;p&gt;第四週的作業主要是要使用solvespace畫出操作說明示範的立體圖，接著比照第二週的作業用Leo編輯上課筆記、心得、自評，產生遠端網頁並上傳Github，所以我把這次學習的重點放在solvespace的使用上，由於不是製圖科出生，接觸過的立體繪圖軟體只有Solidwork，所以照著網路上的操作說明進行繪圖時除了要克服英文上的閱讀問題，還有繪圖上的反應能力偏弱，前後花了約3小時在完成繪製的部分，了解後發現solvespace的使用並不困難，只是面對英文面板多少卻步，實際操作並不複雜，檔案儲存的種類也不少，算是自學也容易上手的軟體，我也google了網路上的其他教學，內容都非常完善，是會讓人願意繼續使用的軟體。&lt;/p&gt;
 
 &lt;/section&gt;
 				
@@ -2600,6 +2616,87 @@ sudo pip3 install IPython[notebook]==3.2.1
      &lt;p align="left"&gt;2.不要失去熱忱&lt;/p&gt;
      &lt;p align="left"&gt;3.不要以為不可能 &lt;/p&gt;
      &lt;br&gt;
+&lt;/section&gt;
+				
+</t>
+<t tx="leo40323206.20151118180431.1">@language xml
+@tabwidth -4
+@others
+
+</t>
+<t tx="leo40323206.20151118180431.12">&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+&lt;/script&gt;
+	
+</t>
+<t tx="leo40323206.20151118180431.2">&lt;!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
+且支援平行與垂直的投影片配置方法
+--&gt;
+</t>
+<t tx="leo40323206.20151118180431.3">&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;最簡單的 reveal 超文件&lt;/title&gt;
+&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
+	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
+	&lt;!--增加對於 IE 早期版本的支援 --&gt;
+	&lt;!--[if lt IE 9]&gt;
+	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+&lt;/head&gt;
+@others
+</t>
+<t tx="leo40323206.20151118180431.4">&lt;body&gt;
+@others
+&lt;/body&gt;
+</t>
+<t tx="leo40323206.20151118180431.5">&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+&lt;div class="reveal"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="leo40323206.20151118180431.6">&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
+&lt;div class="slides"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="leo40323206.20151118180431.7">&lt;!-- 以下為投影片 --&gt;
+&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+&lt;section&gt;
+    &lt;p&gt;&lt;font size="7" face="cursive"&gt;&lt;marquee border="0"&gt;Try not to become a man of success, but rather try to become a man of value.&lt;/marquee&gt;&lt;/font&gt;&lt;/p&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;h2&gt;四設計二乙&lt;/h2&gt;
+    &lt;p&gt;40323206 黃婉菁&lt;/p&gt;		
+&lt;/section&gt;
+	
+</t>
+<t tx="leo40323206.20151118180431.8">&lt;section id="hw-task-one"&gt;
+    &lt;h2&gt;心得&lt;/h2&gt;
+    &lt;br&gt;
+     
+     &lt;p align="left"&gt;半個學期下來除了基本的軟體要會，也要了解版次管理的重要，在這段時間我除了接觸到Solvespace和Creo外，還發現HTML語法的有趣之處，大一的時候因為有老師提供編輯頁面，所以並沒有深入了解，這次為了讓作業更精緻，透過語法直接編輯又有不同的收穫。&lt;/p&gt;
+    &lt;br&gt;
+     
+  
+&lt;/section&gt;
+				
+</t>
+<t tx="leo40323206.20151118180431.9">&lt;section&gt;
+    &lt;h2&gt;自評&lt;/h2&gt;
+    &lt;br&gt;
+   
+      &lt;p align="left"&gt;期中已經結束了，對於老師所提供給我們的以及我所吸收的，老實說我無法完全跟上老師的步伐，跟其他的課程比起來，這門課確實給了我很多的震撼，學習到的東西多寡最後還是決定於自己的興趣高不高，自評80。&lt;/p&gt;
+    &lt;br&gt;
 &lt;/section&gt;
 				
 </t>
