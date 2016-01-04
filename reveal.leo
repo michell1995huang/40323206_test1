@@ -29,7 +29,7 @@
 </v>
 <v t="amd.20150919103357.1"><vh>pelican 設定</vh></v>
 <v t="amd.20150920030003.1"><vh>IPython notebook 整合</vh></v>
-<v t="amd.20150919112710.1"><vh>@path pelican</vh>
+<v t="amd.20150919112710.1" a="E"><vh>@path pelican</vh>
 <v t="amd.20150919113340.1"><vh>以下為與 pelican 有關的設定檔案</vh></v>
 <v t="amd.20150919113132.1"><vh>@edit publishconf.py</vh></v>
 </v>
@@ -47,7 +47,8 @@
 <v t="leo40323206.20151228194334.1"><vh>@edit 2015cphww11_g2.md</vh></v>
 <v t="leo40323206.20151228194342.1"><vh>@edit 2015cphww12.md</vh></v>
 <v t="leo40323206.20151228194350.1"><vh>@edit 2015cphww14.md</vh></v>
-<v t="leo40323206.20151228194357.1"><vh>@edit 2015cphww15.md</vh></v>
+<v t="leo40323206.20160104133236.1"><vh>@edit 2015cphww15.md</vh></v>
+<v t="leo40323206.20160104133243.1"><vh>@edit 2015cphww16.md</vh></v>
 <v t="amd.20150920000911.1"><vh>@edit 2015cpnote1.md</vh></v>
 </v>
 <v t="amd.20150919120205.1"><vh>以下為 reveal 投影片</vh></v>
@@ -457,19 +458,30 @@
 </v>
 </v>
 </v>
-<v t="leo40323206.20151228194451.1"><vh>@clean simplest11.html</vh>
-<v t="leo40323206.20151228194451.2"><vh>檔案說明</vh></v>
-<v t="leo40323206.20151228194451.3" a="E"><vh>html 標註</vh>
-<v t="leo40323206.20151228194451.4" a="E"><vh>body 標註</vh>
-<v t="leo40323206.20151228194451.5" a="E"><vh>div class="reveal"</vh>
-<v t="leo40323206.20151228194451.6" a="E"><vh>div class="slides"</vh>
-<v t="leo40323206.20151228194451.7"><vh>封面</vh></v>
-<v t="leo40323206.20151228194451.8"><vh>投影片2</vh></v>
-<v t="leo40323206.20151228194451.9"><vh>投影片3</vh></v>
-<v t="leo40323206.20151228194451.10"><vh>投影片4 </vh></v>
+<v t="leo40323206.20160104133313.1"><vh>@clean simplest11.html</vh>
+<v t="leo40323206.20160104133313.2"><vh>檔案說明</vh></v>
+<v t="leo40323206.20160104133313.3" a="E"><vh>html 標註</vh>
+<v t="leo40323206.20160104133313.4" a="E"><vh>body 標註</vh>
+<v t="leo40323206.20160104133313.5" a="E"><vh>div class="reveal"</vh>
+<v t="leo40323206.20160104133313.6" a="E"><vh>div class="slides"</vh>
+<v t="leo40323206.20160104133313.7"><vh>封面</vh>
+<v t="leo40323206.20160104133313.8"><vh>&lt;&lt; header &gt;&gt;</vh></v>
+</v>
+<v t="leo40323206.20160104133313.9"><vh>投影片2</vh>
+<v t="leo40323206.20160104133313.10"><vh>&lt;&lt; header &gt;&gt;</vh></v>
+</v>
+<v t="leo40323206.20160104133313.11"><vh>投影片3</vh>
+<v t="leo40323206.20160104133313.12"><vh>&lt;&lt; header &gt;&gt;</vh></v>
+</v>
+<v t="leo40323206.20160104133313.13"><vh>投影片4 </vh>
+<v t="leo40323206.20160104133313.14"><vh>&lt;&lt; header &gt;&gt;</vh></v>
+</v>
+<v t="leo40323206.20160104133313.15" a="E"><vh>投影片5</vh>
+<v t="leo40323206.20160104133313.16"><vh>&lt;&lt; header &gt;&gt;</vh></v>
 </v>
 </v>
-<v t="leo40323206.20151228194451.11"><vh>script</vh></v>
+</v>
+<v t="leo40323206.20160104133313.17"><vh>script</vh></v>
 </v>
 </v>
 </v>
@@ -3336,21 +3348,68 @@ sudo pip3 install IPython[notebook]==3.2.1
 &lt;/section&gt;
 				
 </t>
-<t tx="leo40323206.20151228194451.1">@language xml
+<t tx="leo40323206.20160104133313.1">@language xml
 @tabwidth -4
 @others
 
 </t>
-<t tx="leo40323206.20151228194451.10">&lt;section&gt;
-    &lt;h2&gt;自評&lt;/h2&gt;
+<t tx="leo40323206.20160104133313.10">&lt;section data-state="header1"&gt;
+&lt;style&gt;.header1 header:after { 
+display: block;
+white-space: pre;
+content: "課程: 電腦輔助設計實習B \A 學號: 40323206"; }&lt;/style&gt;
+</t>
+<t tx="leo40323206.20160104133313.11">&lt;&lt; header &gt;&gt;
+&lt;section&gt;
+    &lt;h2&gt;心得&lt;/h2&gt;
+    &lt;br&gt;
+   
+      &lt;p align="left"&gt;這週的作業又是團體作業，一開始大家都急於把自己負責的零件傳到共享的頁面，導致網路有些負荷不了，所最後我們統一由一個組員將零件一次上傳，後續的組裝是每個人自己創一個組裝分頁獨自作業，所以互不干涉，比起Creo真的方便許多，而且又是免費的，所以我認為Onshape是設計產業及人員合作上很大的進步。&lt;/p&gt;
+    &lt;br&gt;
+&lt;/section&gt;
+&lt;/section&gt;				
+</t>
+<t tx="leo40323206.20160104133313.12">&lt;section data-state="header1"&gt;
+&lt;style&gt;.header1 header:after { 
+display: block;
+white-space: pre;
+content: "課程: 電腦輔助設計實習B \A 學號: 40323206"; }&lt;/style&gt;
+</t>
+<t tx="leo40323206.20160104133313.13">&lt;&lt; header &gt;&gt;
+&lt;section&gt;
+    &lt;h2&gt;W15自評&lt;/h2&gt;
     &lt;br&gt;
    
       &lt;p align="left"&gt;這次是老師直接操作給我們看，約束的地方我還沒弄清楚，但機構已經組裝起來，比起Creo我覺得Onshape的組裝彈性很多，可是約束的設定也比較多，組裝不難，但需要思考才能讓完整度更高，然後我要來複習Solvespace了，自評85分。&lt;/p&gt;
     &lt;br&gt;
 &lt;/section&gt;
 				
+&lt;/section&gt;
 </t>
-<t tx="leo40323206.20151228194451.11">&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
+<t tx="leo40323206.20160104133313.14">&lt;section data-state="header1"&gt;
+&lt;style&gt;.header1 header:after { 
+display: block;
+white-space: pre;
+content: "課程: 電腦輔助設計實習B \A 學號: 40323206"; }&lt;/style&gt;
+</t>
+<t tx="leo40323206.20160104133313.15">&lt;&lt; header &gt;&gt;
+&lt;section&gt;
+    &lt;h2&gt;W16自評&lt;/h2&gt;
+    &lt;br&gt;
+   
+      &lt;p align="left"&gt;Solvespace的分析很簡易，所以有部分數值還是需要自己計算，還要配合自己在Onshape組合時所訂定的基準面，所以雖然我在Solvespace找到了最短及最長距離，仍不能直接套用，所以自評75分。&lt;/p&gt;
+    &lt;br&gt;
+&lt;/section&gt;
+				
+&lt;/section&gt;
+</t>
+<t tx="leo40323206.20160104133313.16">&lt;section data-state="header1"&gt;
+&lt;style&gt;.header1 header:after { 
+display: block;
+white-space: pre;
+content: "課程: 電腦輔助設計實習B \A 學號: 40323206"; }&lt;/style&gt;
+</t>
+<t tx="leo40323206.20160104133313.17">&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
 &lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
 &lt;script&gt;
     // 啟動 Reveal.
@@ -3359,14 +3418,14 @@ sudo pip3 install IPython[notebook]==3.2.1
 &lt;/script&gt;
 	
 </t>
-<t tx="leo40323206.20151228194451.2">&lt;!--
+<t tx="leo40323206.20160104133313.2">&lt;!--
 這個檔案展示了 reveal.js 投影片資料的基本架構
 其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
 而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
 且支援平行與垂直的投影片配置方法
 --&gt;
 </t>
-<t tx="leo40323206.20151228194451.3">&lt;!doctype html&gt;
+<t tx="leo40323206.20160104133313.3">&lt;!doctype html&gt;
 &lt;html lang="en"&gt;
 &lt;head&gt;
 &lt;meta charset="utf-8"&gt;
@@ -3380,28 +3439,31 @@ sudo pip3 install IPython[notebook]==3.2.1
 &lt;/head&gt;
 @others
 </t>
-<t tx="leo40323206.20151228194451.4">&lt;body&gt;
+<t tx="leo40323206.20160104133313.4">&lt;body&gt;
 @others
 &lt;/body&gt;
 </t>
-<t tx="leo40323206.20151228194451.5">&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+<t tx="leo40323206.20160104133313.5">&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
 
 &lt;!-- 出現在每一頁的 header 格式 --&gt;
 
-&lt;header style="position: absolute;top: 20px; left: 20px; z-index:300; font-size:30px;background-color: rgba(255,255,255,0.2)"&gt;&lt;/header&gt;
+&lt;header style="position: absolute;top: 15px; left: 15px; z-index:300; font-size:20px;background-color: rgba(255,255,255,0.2)"&gt;&lt;/header&gt;
 
 &lt;div class="reveal"&gt;
 @others
 &lt;/div&gt;
 </t>
-<t tx="leo40323206.20151228194451.6">&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
+<t tx="leo40323206.20160104133313.6">&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
 &lt;div class="slides"&gt;
 @others
 &lt;/div&gt;
 </t>
-<t tx="leo40323206.20151228194451.7">&lt;!-- 以下為投影片 --&gt;
+<t tx="leo40323206.20160104133313.7">&lt;!-- 以下為投影片 --&gt;
 &lt;!-- 每一個 section 都代表一張投影片,  --&gt;
 &lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+
+&lt;&lt; header &gt;&gt;
+
 &lt;section&gt;
   
     &lt;p&gt;&lt;font size="6" face="Comic Sans MS"&gt;&lt;marquee border="0"&gt;體魄康強，精神活潑，舉止端莊，人格健全，便是大學生的風度。
@@ -3413,10 +3475,17 @@ sudo pip3 install IPython[notebook]==3.2.1
     &lt;br&gt;
     &lt;h2&gt;四設計二乙&lt;/h2&gt;
     &lt;p&gt;40323206 黃婉菁&lt;/p&gt;		
+    &lt;/section&gt;
 &lt;/section&gt;
-	
 </t>
-<t tx="leo40323206.20151228194451.8">   &lt;section id="hw-task-one"&gt;
+<t tx="leo40323206.20160104133313.8">&lt;section data-state="header1"&gt;
+&lt;style&gt;.header1 header:after { 
+display: block;
+white-space: pre;
+content: "課程: 電腦輔助設計實習B \A 學號: 40323206"; }&lt;/style&gt;
+</t>
+<t tx="leo40323206.20160104133313.9">   &lt;&lt; header &gt;&gt;
+   &lt;section id="hw-task-one"&gt;
     &lt;h2&gt;上課筆記&lt;/h2&gt;
     &lt;br&gt;
      
@@ -3428,15 +3497,7 @@ sudo pip3 install IPython[notebook]==3.2.1
     
   
 &lt;/section&gt;
-</t>
-<t tx="leo40323206.20151228194451.9">&lt;section&gt;
-    &lt;h2&gt;心得&lt;/h2&gt;
-    &lt;br&gt;
-   
-      &lt;p align="left"&gt;這週的作業又是團體作業，一開始大家都急於把自己負責的零件傳到共享的頁面，導致網路有些負荷不了，所最後我們統一由一個組員將零件一次上傳，後續的組裝是每個人自己創一個組裝分頁獨自作業，所以互不干涉，比起Creo真的方便許多，而且又是免費的，所以我認為Onshape是設計產業及人員合作上很大的進步。&lt;/p&gt;
-    &lt;br&gt;
 &lt;/section&gt;
-				
 </t>
 </tnodes>
 </leo_file>
